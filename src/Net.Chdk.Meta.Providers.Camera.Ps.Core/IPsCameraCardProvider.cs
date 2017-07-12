@@ -2,7 +2,7 @@
 
 namespace Net.Chdk.Meta.Providers.Camera.Ps
 {
-    public interface IPsCardProvider : ICardProvider<PsCardData>
+    public interface IPsCameraCardProvider : ICameraCardProvider<PsCardData>
     {
     }
 }
