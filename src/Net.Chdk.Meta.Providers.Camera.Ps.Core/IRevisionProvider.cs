@@ -6,6 +6,6 @@ namespace Net.Chdk.Meta.Providers.Camera.Ps
 {
     public interface IRevisionProvider
     {
-        RevisionData GetRevision(string revision, TreeRevisionData treeRevision, ListPlatformData list, TreePlatformData tree);
+        RevisionData GetRevision(string revision, TreeRevisionData treeRevision, ListPlatformData list, TreePlatformData tree, string productName);
     }
 }
